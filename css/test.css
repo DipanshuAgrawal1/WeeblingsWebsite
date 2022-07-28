@@ -26,12 +26,48 @@
   transition: 0.5s ease;
   cursor: pointer;
 }
+/* .anime1 {
+  background: url("../image/anime1.jpg");
+  grid-area: image;
+  background-size: cover;
+
+} */
+
+.anime1 {  background: url("../image/anime1.jpg"); }
+.anime2 {  background: url("../image/anime2.jpg"); }
+.anime3 {  background: url("../image/anime3.jpg"); }
+.anime4 {  background: url("../image/anime4.jpg"); }
+.anime5 {  background: url("../image/anime5.jpg"); }
+.anime6 {  background: url("../image/anime8.jpg"); }
+.anime7 {  background: url("../image/anime7.jpg"); }
+.anime8 {  background: url("../image/anime6.jpg"); }
+.anime9 {  background: url("../image/anime10.jpg"); }
+.anime10 {  background: url("../image/anime9.jpg"); }
+.anime11 {  background: url("../image/anime14.jpeg"); }
+.anime12 {  background: url("../image/anime12.png"); }
+.anime13 {  background: url("../image/anime11.jpg"); }
+.anime14 {  background: url("../image/anime13.jfif"); }
+.anime15 {  background: url("../image/anime15.jpg"); }
+.anime16 {  background: url("../image/anime16.jpg"); }
+.anime17 {  background: url("../image/anime17.jpeg"); }
+.anime18 {  background: url("../image/anime18.jpg"); }
+.anime19 {  background: url("../image/anime19.jpeg"); }
+.anime20 {  background: url("../image/anime20.jpg"); }
+.anime21 {  background: url("../image/anime26.png"); }
+.anime22 {  background: url("../image/anime27.jpg"); }
+.anime23 {  background: url("../image/anime28.jpg"); }
+.anime24 {  background: url("../image/anime29.png"); }
+.anime25 {  background: url("../image/anime30.jpg"); }
+.anime26 {  background: url("../image/anime21.jpg"); }
+.anime27 {  background: url("../image/anime22.jpg"); }
+.anime28 {  background: url("../image/anime23.jpg"); }
+.anime29 {  background: url("../image/anime24.jpg"); }
+.anime30 {  background: url("../image/anime25.jpeg"); }
+
 .card-image {
   grid-area: image;
-  background: url("../image/image1.jpg");
-  /* border-top-left-radius: 15px;
-  border-top-right-radius: 15px; */
   background-size: cover;
+
 }
 .card-text {
   grid-area: text;

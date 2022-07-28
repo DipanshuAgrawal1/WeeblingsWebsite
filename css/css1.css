@@ -8,7 +8,14 @@
   /* background-color: #24252A; */
 
 }
-
+/* body{
+  background-image: url("https://i.imgur.com/4ptF5hS.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 1;
+  background-size: 25%;
+  background-position: left-bottom;
+} */
 li, a, button, h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -70,7 +77,8 @@ body, html{
   color:#666;
 }
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10,
+.pimg11, .pimg12, .pimg13, .pimg14, .pimg15, .pimg16{
   position:relative;
   opacity:0.90;
   background-position:center;
@@ -83,21 +91,90 @@ body, html{
   */
   background-attachment:fixed;
 }
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  /* margin: 0px; */
+  object-fit: cover;
+  /* position: fixed; */
+  left: 0
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+/* .render {
+left: -3%;
+width: 600px !important;
 
+position: fixed;
+z-index: 1;
+} */
 .pimg1{
   background-image:url('../image/image1.jpg');
   min-height:100%;
 }
-
 .pimg2{
   background-image:url('../image/image2.jpg');
   min-height:400px;
 }
-
 .pimg3{
   background-image:url('../image/image3.jpg');
   min-height:400px;
 }
+.pimg4{
+  background-image:url('../image/image (6).jpg');
+  min-height:400px;
+}
+.pimg5{
+  background-image:url('../image/image (7).jpg');
+  min-height:400px;
+}
+.pimg6{
+  background-image:url('../image/image (8).jpg');
+  min-height:400px;
+}
+.pimg7{
+  background-image:url('../image/image (9).jpg');
+  min-height:400px;
+}
+.pimg8{
+  background-image:url('../image/image (10).jpg');
+  min-height:400px;
+}
+.pimg9{
+  background-image:url('../image/image (11).jpg');
+  min-height:400px;
+}
+.pimg10{
+  background-image:url('../image/image (12).jpg');
+  min-height:400px;
+}
+.pimg11{
+  background-image:url('../image/image (13).jpg');
+  min-height:400px;
+}
+.pimg12{
+  background-image:url('../image/image (1).jpg');
+  min-height:100%;
+}
+.pimg13{
+  background-image:url('../image/image (2).jpg');
+  min-height:400px;
+}
+.pimg14{
+  background-image:url('../image/image (3).jpg');
+  min-height:400px;
+}
+.pimg15{
+  background-image:url('../image/image (4).jpg');
+  min-height:100%;
+}
+.pimg16{
+  background-image:url('../image/image (5).jpg');
+  min-height:100%;
+}
+
 
 .section{
   text-align:center;
